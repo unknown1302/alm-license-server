@@ -4,8 +4,7 @@ app = Flask(__name__)
 
 # Example: In-memory license "database"
 licenses = {
-    "HWID1|AppID1": {"key": "SAMPLEKEY|20250101", "expiry": "20250101", "status": "active"},
-    # Add more licenses as needed
+    "HWID1|AppID1": {"key": "SAMPLEKEY|20260101", "expiry": "20260101", "status": "active"},
 }
 
 @app.route('/validate', methods=['POST'])
